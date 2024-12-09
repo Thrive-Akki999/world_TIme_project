@@ -35,19 +35,20 @@ class _LoginPageState extends State<LoginPage> {
   }
 }
 
+// this Widget is used for the Make Login Page of the Application
+
 Widget _page(BuildContext context, TextEditingController userController ,TextEditingController password){
   return Center(
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         _logo(),
-        SizedBox(height: 10.0,),
+        const SizedBox(height: 10.0),
         _TextFiled("UserName",userController),
-        SizedBox(height: 10.0,),
+        const SizedBox(height: 10.0,),
         _TextFiled("Password", password),
-        SizedBox(height: 10.0,),
-
-        _button(context as BuildContext,userController as TextEditingController,password),
+        const SizedBox(height: 10.0,),
+        _button(context,userController,password),
       ],
     ),
   );
