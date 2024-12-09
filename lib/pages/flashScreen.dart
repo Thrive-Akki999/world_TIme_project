@@ -26,7 +26,7 @@ class _FlashScreenState extends State<FlashScreen> {
       backgroundColor: Colors.yellow,
       body: SafeArea(
         child: Center(
-          child: Text("WELCOME APPLICATION",style: TextStyle(color: Colors.white,letterSpacing: 3.0),),
+          child: Text("WELCOME FRIENDS",style: TextStyle(color: Colors.white,letterSpacing: 3.0),),
         ),
       ),
 

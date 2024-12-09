@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -61,7 +60,6 @@ Widget _logo() {
       border: Border.all(color: Colors.white,width: 10.0,),
     ),
     child: Icon(Icons.person, color: Colors.white,size: 90.0,),
-
   );
 }
 
